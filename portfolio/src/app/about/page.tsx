@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function AboutPage() {
   return (
     <section className="pt-10 mt-25 overflow-hidden bg-gray-50 dark:bg-gray-800 md:pt-0 sm:pt-16 2xl:pt-16">
@@ -23,12 +25,12 @@ function AboutPage() {
               </span>
               <br className="block sm:hidden" />
               <span className="ml-2">Ask me on</span>
-              <a
-                href="#"
+              <Link
+                href="https://www.linkedin.com/in/dip-narayan-mahara-b02201320/"
                 className="ml-2 transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline"
               >
-                Twitter
-              </a>
+                LinkedIn
+              </Link>
             </p>
           </div>
           <div className="relative">
